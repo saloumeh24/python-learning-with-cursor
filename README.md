@@ -17,3 +17,12 @@
 - کار با شرط‌ها (if/elif/else)
 - گرفتن ورودی از کاربر
 - تبدیل متن به عدد
+===========================================================================
+name = input("enter your name: ")
+age = int(input("enter your age: "))
+if age >= 18:
+    message = f"welcome {name}"
+else:
+    message = f"sorry {name}, you are too young!"
+print(message)
+========================================================================
